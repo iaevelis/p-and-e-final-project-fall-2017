@@ -1,39 +1,44 @@
-NB: You might find useful the [sample proposal](https://github.com/zamfi/cca-programming-electronics-fall-2017/blob/master/hw/sample-proposal.md) useful in completing this assignment!
 
-# Your Project Title Here
 
-One-sentence summary of your project goes here. Then, make sure you have each of these sections completed:
+# Aulos emulator
+An arduino project that is able to emulate the play experience of a real life musical instrument (aulos)
 
 ## Summary
 
-Here, write a paragraph or two describing what you built for your final project and what was challenging. 
-
-Include a discussion how it will be interactive or responsive to the environment.
+I built an arduino musical instrument that is capable of playing 7 keys.
+Each individual keys are played through touching an assigned nail. when a specific key is touched, the speaker makes the designated voive
 
 ## Component Parts
 
-From what pieces did you build your project?
+- wood blocks: base.
+- aluminium or iron nails: conductive parts
+- arduino and other electronic parts (provided)
 
-Include what types of inputs/outputs/data it will use, and a block diagram showing how all those pieces are connected.
+- inputs: fingers touch the conductive parts to indicate a keyboard press
+- output: sound
+- data: musical pitches and code
 
 ## Challenges
 
-A brief discussion of what was hard, challenging, or unexpected about your project.
+the most challanging part was to understand how does the code work and how to modify the parts I want to change(e.g. the pitches, number of keys, etc).
+to change the pitches to the right ones was also challenging
 
 ## Timeline
 
 What did you do in each of the past five weeks?
 
-- Week 1: Write proposal
-- Week 2: 
-- Week 3:
-- Week 4:
+- Week 1: Write proposal/start sear
+- Week 2: looking for hardware
+- Week 3: hardware completed, project detail changed
+- Week 4: musical notes corrected
 - Week 5: Present!
 
 ## Completed Work
 
-Photos and videos of your completed final project!
+See attached documents
 
 ## References and links
 
-Tutorials, comments, videos, magazine articles - anything you found that helps you understand your project.
+http://www.instructables.com/id/Capacitive-Touch-Arduino-Keyboard-Piano/
+http://www.instructables.com/id/Another-Arduino-Piano-With-Capacitive-Sensing/
+http://www.instructables.com/id/Arduino-Dubstep-Piano-Keyboard/
